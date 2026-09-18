@@ -1,0 +1,14 @@
+{
+    "title":"",
+    "body":"",
+    "image":"",
+    "buttons":[
+        {"text":"","image":"","link":""},
+        {"text":"","image":"","link":""}],
+    "blocks":[
+        {"title":"","subtitle":"","body":"","image":"","icon":"",
+            "deck":[
+                {"title":"","subtitle":"","body":"","image":"","icon":"","footer":""},
+                {"title":"","subtitle":"","body":"","image":"","icon":"","footer":""}]}]
+ }
+        

@@ -1,3 +1,7 @@
+---
+import Navigation from '../components/Navigation.astro';
+import Footer from '../components/Footer.astro';
+---
 <!doctype html>
 <html lang="en">
 	<head>
@@ -9,7 +13,9 @@
 		<title>Astro Basics</title>
 	</head>
 	<body>
-		<slot />
+		<Navigation />
+			<slot />
+		<Footer />
 	</body>
 </html>
 

@@ -1,0 +1,30 @@
+{
+    "title":"Our Outreach",
+    "body":"Veteran John Outreach meets people where they are -- in the streets, in shelters, at encampments, and in our community -- with practical help, genuine relationships, and hope for what's ahead.",
+    "image":"",
+    "buttons":[
+        {"text":"Get Involved","image":"","link":"/get_involved"},
+        {"text":"Partner With Us","image":"","link":""}],
+    "blocks":[
+        {"title":"Relief · Relationship · Restoration","subtitle":"","body":"","image":"","icon":"",
+            "deck":[
+                {"title":"Relief","subtitle":"We provide immediate, practical help like food, clothing, hygiene items, and essential supplies to meet urgent needs.","body":"","image":"","icon":"/icons/package.svg"},
+                {"title":"Relationship","subtitle":"We build genuine connections and walk alongside people with compassion, dignity, and respect.","body":"","image":"","icon":"/icons/handshake.svg"},
+                {"title":"Restoration","subtitle":"We encourage hope, opportunity, and a brighter tomorrow through support, guidance, and meaningful relationships.","body":"","image":"","icon":"/icons/heart.svg"}]},
+        {"title":"Year-Round Outreach","subtitle":"Meeting needs in every season.","body":"","image":"","icon":"",
+            "deck":[
+                {"title":"Winter Relief","subtitle":"Warm clothing, blankets, and life-saving supplies when temperatures drop","body":"","image":"","icon":"", "footer":"WINTER"},
+                {"title":"Spring Preparation","subtitle":"Hygiene supplies, resources, and connections for a fresh start.","body":"","image":"","icon":"", "footer":"SPRING"},
+                {"title":"Annual Retreat","subtitle":"A time of rest, encouragement, and renewal for veterans in our community.","body":"","image":"","icon":"", "footer":"SPRING"},
+                {"title":"Summer Hydration","subtitle":"Water, hygiene items, and outreach in high-heat conditions.","body":"","image":"","icon":"","footer":"SUMMER"},
+                {"title":"Back to School","subtitle":"School supplies and support for veteran families and their children.","body":"","image":"","icon":"", "footer":"LATE SUMMER"},
+                {"title":"Fall/Holiday Outreach","subtitle":"Meals, warm clothing, and hope during the holiday season.","body":"","image":"","icon":"","footer":"FALL / HOLIDAY"}]},
+        {"title":"Featured Programs","subtitle":"Focused outreach. Lasting impact.","body":"","image":"","icon":"",
+            "deck":[
+                {"title":"Women's Outreach","subtitle":"Support, resources, and community for women veterans on their journey forward.","body":"","image":"","icon":""},
+                {"title":"Annual Retreat","subtitle":"A time of rest, reflection, and renewal for veterans in our community.","body":"","image":"","icon":""},
+                {"title":"Hydration Outreach","subtitle":"Keeping our community safe and healthy during the hot summer months.","body":"","image":"","icon":""},
+                {"title":"Seasonal Relief","subtitle":"Warm clothing, meals, and essential supplies when people need it most.","icon":""}]}
+         ]
+ }
+        

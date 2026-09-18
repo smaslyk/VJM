@@ -1,0 +1,17 @@
+{
+    "title":"Get Involved",
+    "body":"There are many ways to make a difference in the lives of our veterans and neighbors. Together, we can bring hope, practical help, and lasting change.",
+    "image":"",
+    "buttons":[],
+    "blocks":[
+        {"title":"","subtitle":"","body":"","image":"","icon":"",
+            "deck":[
+                {"title":"Volunteer","subtitle":"Give you time and talents on the front lines or behind the scenes","body":"","image":"","icon":"/icons/people.svg","footer":""},
+                {"title":"Partner with VJO","subtitle":"Join us as a ministry, business, or organization to expand our impact.","body":"","image":"","icon":"/icons/handshake.svg","footer":""},
+                {"title":"Donate Supplies","subtitle":"Help meet real needs with clothing, hygiene items, food, and more.","body":"","image":"","icon":"/icons/package.svg","footer":""},
+                {"title":"Pray With Us","subtitle":"Lift up our veterans, our team, and the people we serve.","body":"","image":"","icon":"/icons/praying.svg","footer":""}
+                ]
+            }
+        ]
+ }
+        

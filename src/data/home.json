@@ -1,0 +1,31 @@
+{
+    "title":"Leave No One Behind",
+    "body":"Veteran John Outreach is a faith-rooted community outreach serving people from all walks of life with compassion, dignity, practical care, and relationship",
+    "image":"abcd",
+    "buttons":[
+        {"text":"Donate","image":"","link":"/donate"},
+        {"text":"Get Involved","image":"","link":""},
+        {"text":"Learn How We Serve","image":"","link":""}],
+    "blocks":[
+        {"title":"How We Serve","subtitle":"Meeting real needs. Building real relationships. Creating brighter tomorrows","body":"","image":"","icon":"",
+            "deck":[
+                {"title":"Relief","subtitle":"Meeting immediate needs with practical care and compassion","body":"","image":"","icon":"/icons/package.svg"},
+                {"title":"Relationship","subtitle":"Building genuine connections and walking alongside people.","body":"","image":"","icon":"/icons/people.svg"},
+                {"title":"Restoration","subtitle":"Encouraging hope, opportunity, and a brighter tomorrow.","body":"","image":"","icon":"/icons/restoration.svg"}]} ,
+        {"title":"Current Outreach","subtitle":"Focused outreach. Real impact in our community.","body":"","image":"","icon":"",
+            "deck":[
+                {"title":"Women's Outreach","subtitle":"Providing practical care, encouragement, and hope to women in our community. Every woman matters, and no one is forgotten","body":"","image":"","icon":"/icons/female.svg"}
+            ]
+        },
+        {"title":"Ways to Help","subtitle":"There are many ways to make a difference.","body":"","image":"","icon":"",
+            "deck":[
+                {"title":"Give","subtitle":"Fuel our mission and change lives.","body":"","image":"","icon":"/icons/gift.svg"},
+                {"title":"Volunteer","subtitle":"Share your time and talents.","body":"","image":"","icon":"/icons/people.svg"},
+                {"title":"Donate Supplies","subtitle":"Provide essential items for those in need.","body":"","image":"","icon":"/icons/package.svg"},
+                {"title":"Partner with VJO","subtitle":"Join us in creating a stronger community.","body":"","image":"","icon":"/icons/handshake.svg"}]   },
+        {"title":"Bios & Updates","subtitle":"Real people. Real stories. A brighter tomorrow.","body":"","image":"","icon":"",
+            "deck":[
+                {"title":"John Doe","subtitle":"Founder & Director","body":"","image":"","icon":""},
+                {"title":"Jane Smith","subtitle":"Community Outreach Coordinator","body":"","image":"","icon":""},
+                {"title":"Mike Johnson","subtitle":"Veteran Support Specialist","body":"","image":"","icon":""}]}   
+]}
