@@ -1,19 +1,20 @@
 {
     "title":"Leave No One Behind",
     "body":"Veteran John Outreach is a faith-rooted community outreach serving people from all walks of life with compassion, dignity, practical care, and relationship",
-    "image":"abcd",
+    "image":"/img/distribute.jpg",
     "buttons":[
-        {"text":"Donate","image":"","link":"/donate"},
-        {"text":"Get Involved","image":"","link":""},
+        {"text":"Donate","image":"/icons/heart.svg","link":"/donate"},
+        {"text":"Get Involved","image":"/icons/people.svg","link":""},
         {"text":"Learn How We Serve","image":"","link":""}],
     "blocks":[
         {"title":"How We Serve","subtitle":"Meeting real needs. Building real relationships. Creating brighter tomorrows","body":"","image":"","icon":"",
             "deck":[
-                {"title":"Relief","subtitle":"Meeting immediate needs with practical care and compassion","body":"","image":"","icon":"/icons/package.svg"},
+                {"title":"Relief","subtitle":"Meeting immediate needs with practical care and compassion","body":"","image":"","icon":"/icons/waterdrop.svg"},
                 {"title":"Relationship","subtitle":"Building genuine connections and walking alongside people.","body":"","image":"","icon":"/icons/people.svg"},
                 {"title":"Restoration","subtitle":"Encouraging hope, opportunity, and a brighter tomorrow.","body":"","image":"","icon":"/icons/restoration.svg"}]} ,
         {"title":"Current Outreach","subtitle":"Focused outreach. Real impact in our community.","body":"","image":"","icon":"",
             "deck":[
+                {"title":"","subtitle":"","body":"","image":"/img/womens_outreach.jpg","icon":""},
                 {"title":"Women's Outreach","subtitle":"Providing practical care, encouragement, and hope to women in our community. Every woman matters, and no one is forgotten","body":"","image":"","icon":"/icons/female.svg"}
             ]
         },
