@@ -9,7 +9,7 @@
     "blocks":[
         {"title":"How We Serve","subtitle":"Meeting real needs. Building real relationships. Creating brighter tomorrows","body":"","image":"","icon":"",
             "deck":[
-                {"title":"Relief","subtitle":"Meeting immediate needs with practical care and compassion","body":"","image":"","icon":"/icons/waterdrop.svg"},
+                {"title":"Relief","subtitle":"Meeting immediate needs with practical care and compassion","body":"","image":"/img/relief.jpg","icon":"/icons/waterdrop2.svg"},
                 {"title":"Relationship","subtitle":"Building genuine connections and walking alongside people.","body":"","image":"","icon":"/icons/people.svg"},
                 {"title":"Restoration","subtitle":"Encouraging hope, opportunity, and a brighter tomorrow.","body":"","image":"","icon":"/icons/restoration.svg"}]} ,
         {"title":"Current Outreach","subtitle":"Focused outreach. Real impact in our community.","body":"","image":"","icon":"",
