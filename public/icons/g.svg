@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 280" width="100%" height="100%">
+  <!-- Transparent Background -->
+
+  <g transform="translate(0, 10)">
+    <!-- 1. LEFT MOUNTAIN PEAK (Solid White Silhouette) -->
+    <path d="M 30,240 
+             C 65,225 110,195 155,145 
+             C 175,120 190,95 200,70 
+             L 218,102 
+             C 200,130 182,165 172,195 
+             L 172,240 Z" 
+          fill="#ffffff" />
+
+    <!-- 2. RIGHT MOUNTAIN PEAK (Solid White Silhouette) -->
+    <path d="M 470,240 
+             C 435,225 390,195 345,145 
+             C 325,120 310,95 300,70 
+             L 282,102 
+             C 300,130 318,165 328,195 
+             L 328,240 Z" 
+          fill="#ffffff" />
+
+    <!-- 3. CENTRAL ROOF / APEX ARCH ABOVE CROSS -->
+    <!-- Distinct peaked roof stroke framing the top of the cross -->
+    <path d="M 198,82 
+             L 250,30 
+             L 302,82 
+             L 284,88 
+             L 250,48 
+             L 216,88 Z" 
+          fill="#ffffff" />
+
+    <!-- 4. LAYERED SWEEPING BASE / HILL (Wavy Ground Contours) -->
+    <!-- Top Layer (Ground Line behind the cross base) -->
+    <path d="M 20,240 
+             Q 130,185 250,215 
+             Q 370,245 480,210 
+             L 480,248 
+             Q 370,280 250,250 
+             Q 130,220 20,250 Z" 
+          fill="#ffffff" />
+
+    <!-- Bottom Layer (Interlocking Lower Swoop) -->
+    <path d="M 50,225 
+             Q 150,248 250,232 
+             Q 350,216 450,232 
+             L 450,242 
+             Q 350,226 250,242 
+             Q 150,258 50,235 Z" 
+          fill="#ffffff" />
+
+    <!-- 5. CENTRAL EMBEDDED CROSS -->
+    <g fill="#ffffff">
+      <!-- Vertical Post -->
+      <rect x="242" y="65" width="16" height="160" rx="1" />
+      
+      <!-- Horizontal Crossbar -->
+      <rect x="195" y="105" width="110" height="16" rx="1" />
+
+      <!-- Flared Base Anchor -->
+      <path d="M 234,222 L 266,222 L 260,212 L 240,212 Z" />
+    </g>
+  </g>
+</svg>

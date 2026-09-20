@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <defs>
+    <!-- Clip area inside the dark blue circle -->
+    <clipPath id="circle-clip">
+      <circle cx="250" cy="250" r="190" />
+    </clipPath>
+
+    <!-- Subtle gradient for the dark blue background -->
+    <linearGradient id="skyGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0a192f" />
+      <stop offset="100%" stop-color="#1e3a8a" />
+    </linearGradient>
+
+    <!-- Sun / Glow gradient behind the cross -->
+    <radialGradient id="sunGlow" cx="50%" cy="45%" r="60%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.4" />
+      <stop offset="60%" stop-color="#3b82f6" stop-opacity="0.2" />
+      <stop offset="100%" stop-color="#1e3a8a" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+
+  <!-- Outer Shadow / Glow for the badge -->
+  <circle cx="250" cy="250" r="212" fill="#000000" opacity="0.15" />
+
+  <!-- Outer Dark Blue Boundary Accent ring -->
+  <circle cx="250" cy="250" r="208" fill="#0f172a" />
+
+  <!-- Thick White Border -->
+  <circle cx="250" cy="250" r="200" fill="#ffffff" />
+
+  <!-- Dark Blue Circle Base -->
+  <circle cx="250" cy="250" r="185" fill="url(#skyGradient)" />
+
+  <!-- Clipped Inner Artwork -->
+  <g clip-path="url(#circle-clip)">
+
+    <!-- Background Sun/Aura Glow -->
+    <circle cx="250" cy="220" r="140" fill="url(#sunGlow)" />
+
+    <!-- Stars / Sparkles -->
+    <circle cx="160" cy="120" r="1.5" fill="#ffffff" opacity="0.6" />
+    <circle cx="330" cy="110" r="2" fill="#ffffff" opacity="0.8" />
+    <circle cx="210" cy="100" r="1.2" fill="#ffffff" opacity="0.5" />
+    <circle cx="290" cy="140" r="1.5" fill="#ffffff" opacity="0.7" />
+
+    <!-- Distant Mountain Layer (Silhouettes) -->
+    <path d="M 60,350 L 140,210 L 220,310 L 310,180 L 440,350 Z" fill="#1d4ed8" opacity="0.4" />
+
+    <!-- Midground Mountain Layer (Left Peak) -->
+    <g>
+      <!-- Base/Shade -->
+      <polygon points="50,400 170,195 290,400" fill="#1e293b" />
+      <!-- Light Side -->
+      <polygon points="170,195 290,400 170,400" fill="#334155" />
+      <!-- Snow Cap -->
+      <polygon points="170,195 195,238 182,248 170,238 158,248 145,238" fill="#e2e8f0" />
+      <polygon points="170,195 195,238 182,248 170,248" fill="#cbd5e1" />
+    </g>
+
+    <!-- Midground Mountain Layer (Right Peak) -->
+    <g>
+      <!-- Base/Shade -->
+      <polygon points="210,400 330,175 450,400" fill="#0f172a" />
+      <!-- Light Side -->
+      <polygon points="330,175 450,400 330,400" fill="#1e293b" />
+      <!-- Snow Cap -->
+      <polygon points="330,175 355,220 342,230 330,220 318,230 305,220" fill="#ffffff" />
+      <polygon points="330,175 355,220 342,230 330,230" fill="#cbd5e1" />
+    </g>
+
+    <!-- Foreground Central Mountain Peak -->
+    <g>
+      <!-- Left (Dark) Face -->
+      <polygon points="110,420 250,150 250,420" fill="#0f172a" />
+      <!-- Right (Light) Face -->
+      <polygon points="250,150 390,420 250,420" fill="#1e293b" />
+
+      <!-- Ridge Highlights -->
+      <polygon points="250,150 280,210 262,225 250,210 238,225 220,210" fill="#ffffff" />
+      <polygon points="250,150 250,210 238,225 220,210" fill="#94a3b8" />
+    </g>
+
+    <!-- Foothills / Base Ridges -->
+    <path d="M 60,420 Q 160,360 250,380 Q 340,360 440,420 L 440,450 L 60,450 Z" fill="#090d16" />
+
+    <!-- Embedded Central Cross -->
+    <g transform="translate(250, 260)">
+      <!-- Soft Backlight behind Cross -->
+      <ellipse cx="0" cy="-10" rx="45" ry="75" fill="#ffffff" opacity="0.25" filter="blur(10px)" />
+
+      <!-- Outer White Outline / Border of Cross -->
+      <path d="M -16,-96 H 16 V -46 H 56 V -14 H 16 V 64 H -16 V -14 H -56 V -46 H -16 Z" fill="#ffffff" />
+
+      <!-- Inner Cross Body (Dark Blue with Gradient effect) -->
+      <path d="M -12,-92 H 12 V -42 H 52 V -18 H 12 V 60 H -12 V -18 H -52 V -42 H -12 Z" fill="#0a192f" />
+
+      <!-- Inner Cross Core Highlight -->
+      <path d="M -4,-84 H 4 V -38 H 44 V -26 H 4 V 52 H -4 V -26 H -44 V -38 H -4 Z" fill="#38bdf8" opacity="0.9" />
+    </g>
+
+  </g>
+
+  <!-- Inner Rim Shadow/Ring to give depth to the white frame -->
+  <circle cx="250" cy="250" r="185" fill="none" stroke="#000000" stroke-width="3" opacity="0.3" />
+</svg>

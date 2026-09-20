@@ -9,13 +9,13 @@
     "blocks":[
         {"title":"How We Serve","subtitle":"Meeting real needs. Building real relationships. Creating brighter tomorrows","body":"","image":"","icon":"",
             "deck":[
-                {"title":"Relief","subtitle":"Meeting immediate needs with practical care and compassion","body":"","image":"/img/relief.jpg","icon":"/icons/waterdrop2.svg"},
-                {"title":"Relationship","subtitle":"Building genuine connections and walking alongside people.","body":"","image":"","icon":"/icons/people.svg"},
+                {"title":"Relief","subtitle":"Meeting immediate needs with practical care and compassion","body":"","image":"/img/relief.jpg","icon":"/icons/drop.svg"},
+                {"title":"Relationship","subtitle":"Building genuine connections and walking alongside people.","body":"","image":"/img/group.jpg","icon":"/icons/people.svg"},
                 {"title":"Restoration","subtitle":"Encouraging hope, opportunity, and a brighter tomorrow.","body":"","image":"","icon":"/icons/restoration.svg"}]} ,
         {"title":"Current Outreach","subtitle":"Focused outreach. Real impact in our community.","body":"","image":"","icon":"",
             "deck":[
                 {"title":"","subtitle":"","body":"","image":"/img/womens_outreach.jpg","icon":""},
-                {"title":"Women's Outreach","subtitle":"Providing practical care, encouragement, and hope to women in our community. Every woman matters, and no one is forgotten","body":"","image":"","icon":"/icons/female.svg"}
+                {"title":"Women's Outreach","subtitle":"Providing practical care, encouragement, and hope to women in our community. Every woman matters, and no one is forgotten","body":"","image":"","icon":""}
             ]
         },
         {"title":"Ways to Help","subtitle":"There are many ways to make a difference.","body":"","image":"","icon":"",
