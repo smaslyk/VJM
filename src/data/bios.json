@@ -1,16 +1,77 @@
 {
-    "title":"Bios & Updates",
-    "body":"Read outreach stories, stay informed through our newsletters, and see how Veteran John Outreach is serving throughout the year.",
-    "image":"",
-    "buttons":[
-        {"text":"Featured Story","image":"","link":""},
-        {"text":"Latest Newsletter","image":"","link":""}],
-    "blocks":[
-        {"title":"Featured Story","subtitle":"Real people. Real stories. A brighter tomorrow.","body":"","image":"","icon":"",
-            "deck":[
-                {"title":"More Than a Meal","subtitle":"For James, a warm meal was just the beginning. What started as a simple conversation at a community outreach even became a turning point -- a reminder that he is not forgotten, and that a brighter tommorw is possible.","body":"","image":"","icon":"","footer":""}]},
-        {"title":"More Stories","subtitle":"Additional stories from our outreach in the community.","body":"","image":"","icon":"",
-            "deck":[
-                {"title":"Walking Together Through Winter","subtitle":"As temperatures dropped, our team hit the streets to provide warm clothing, essential supplies, and encouragement to individuals experiencing homelessness. This story highlights the power of community and what's possible when we show up.","body":"","image":"","icon":"","footer":""}]}
-        ]
- }
+    "title": "Bios & Updates",
+    "body": "Read outreach stories, stay informed through our newsletters, and see how Veteran John Outreach is serving throughout the year.",
+    "image": "",
+    "buttons": [
+        {
+            "text": "Featured Story",
+            "image": "/icons/book.svg",
+            "link": ""
+        },
+        {
+            "text": "Latest Newsletter",
+            "image": "",
+            "link": ""
+        }
+    ],
+    "blocks": [
+        {
+            "title": "Featured Story",
+            "subtitle": "Real people. Real stories. A brighter tomorrow.",
+            "body": "",
+            "image": "",
+            "icon": "",
+            "deck": [
+                {
+                    "title": "",
+                    "subtitle": "",
+                    "body": "",
+                    "image": "/img/featured_story.jpg",
+                    "icon": "",
+                    "post_html": ""
+                },
+                {
+                    "title": "More Than a Meal",
+                    "subtitle": "For James, a warm meal was just the beginning. What started as a simple conversation at a community outreach even became a turning point -- a reminder that he is not forgotten, and that a brighter tommorw is possible.",
+                    "body": "",
+                    "image": "",
+                    "icon": "",
+                    "post_html": "<p class=\"mt-4\"><a href=\"#\" class=\"inline-block rounded bg-blue-950 px-6 py-2.5 text-sm font-medium text-white shadow transition duration-200 ease-in-out hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2\">Read Story →</a></p>"
+                }
+            ]
+        },
+        {
+            "title": "More Stories",
+            "subtitle": "Additional stories from our outreach in the community.",
+            "body": "",
+            "image": "",
+            "icon": "",
+            "deck": [
+                {
+                    "title": "",
+                    "subtitle": "",
+                    "body": "",
+                    "image": "/img/more_stories.jpg",
+                    "icon": "",
+                    "post_html": ""
+                },
+                {
+                    "title": "Walking Together Through Winter",
+                    "subtitle": "As temperatures dropped, our team hit the streets to provide warm clothing, essential supplies, and encouragement to individuals experiencing homelessness. This story highlights the power of community and what's possible when we show up.",
+                    "body": "",
+                    "image": "",
+                    "icon": "",
+                    "post_html": "<p class=\"mt-4\"><a href=\"#\" class=\"inline-block rounded bg-blue-950 px-6 py-2.5 text-sm font-medium text-white shadow transition duration-200 ease-in-out hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2\">Read More →</a></p>"
+                }
+            ]
+        },
+        {
+            "title": "Newletter Archive",
+            "subtitle": "Stay informed with the latest news, updates, and stories from Veteran John Outreach.",
+            "body": "",
+            "image": "",
+            "icon": "",
+            "deck": []
+        }
+    ]
+}

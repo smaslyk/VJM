@@ -1,0 +1,20 @@
+{
+    "faq": [
+        {
+            "question":"Is my donation secure?",
+            "answer":"Yes, we use secure payment processing to ensure that your donation is safe and protected. We take your privacy and security seriously."            
+        },
+        {
+            "question":"How are donations used?",
+            "answer":"Donations are used to support our programs and services, including outreach initiatives, counseling, mentorship programs, and assistance for veterans and their families. We strive to maximize the impact of every donation."    
+        },
+        {
+            "question":"Can I give supplies?",
+            "answer":"Yes."
+        },
+        {
+            "question":"Can I give to a specific campaign?",
+            "answer":"Yes, you can specify a campaign when making your donation. Please contact us for more information on how to direct your donation to a specific campaign."
+        }
+    ]
+}

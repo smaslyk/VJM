@@ -1,0 +1,66 @@
+{
+    "title": "Give",
+    "body": "Your generosity helps provide relief, relationship, and restoration for our veteran community.",
+    "image": "",
+    "buttons": [],
+    "blocks": [
+        {
+            "title": "Ways to Give",
+            "subtitle": "Choose the giving option that works best for you. Every gift makes a difference.",
+            "body": "",
+            "image": "",
+            "icon": "",
+            "deck": [
+                {
+                    "title": "Donate Online",
+                    "subtitle": "Make a secure, one-time or recurring donation in just a few clicks.",
+                    "body": "",
+                    "image": "",
+                    "icon": "/icons/hearthand.svg",
+                    "post_html":"<p class=\"mt-4\"><a href=\"https://sukkatshalom.churchcenter.com/giving/to/veteran-john\" target=\"_blank\" class=\"inline-block rounded bg-blue-950 px-6 py-2.5 text-sm font-medium text-white shadow transition duration-200 ease-in-out hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2\">Donate Now →</a>"
+                },
+                {
+                    "title": "Give With Zelle",
+                    "subtitle": "Send your donation directly through Zelle to support our mision.",
+                    "body": "",
+                    "image": "",
+                    "icon": "/icons/zelle.svg",
+                    "post_html":"<p class=\"text-center border-2 border-black \">bmpveteranjohn@gmail.com</p><p class=\"text-xs text-center\"> Include a note (e.g. \"General Fund\"\r\nor a campaign name) if desired.</p>"
+                },
+                {
+                    "title": "Amazon Wish List",
+                    "subtitle": "Help by purchasing needed items for our outreach programs directly from our wish list.",
+                    "body": "",
+                    "image": "",
+                    "icon": "/icons/amazon.svg",
+                    "post_html":"<p class=\"mt-4\"><a href=\"https://www.amazon.com/hz/wishlist/ls/1NLIT1XMPXZY7?ref_=wl_share\" target=\"_blank\" class=\"inline-block rounded bg-blue-950 px-6 py-2.5 text-sm font-medium text-white shadow transition duration-200 ease-in-out hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2\">View Our Wish List →</a>"
+                }
+            ]
+        },
+        {
+            "title": "Current Giving Opportunity",
+            "subtitle": "Make a bigger impact through our featured campaign.",
+            "body": "",
+            "image": "",
+            "icon": "",
+            "deck": [
+                {
+                    "title": "",
+                    "subtitle": "",
+                    "body": "",
+                    "image": "/img/streetside.jpg",
+                    "icon": "",
+                    "post_html":""
+                },
+                {
+                    "title": "Winter Support for Local Veterans",
+                    "subtitle": "Help us provide warm clothing, food, and essential suplies to veterans in our community during the winter months. Your gift brings comfort, hope, and reminds them they are not forgotten.",
+                    "body": "",
+                    "image": "",
+                    "icon": "",
+                    "post_html":""
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,34 @@
+{
+    "opportunities": [
+        {
+            "icon": "/icons/megaphone.svg",
+            "opportunity":"Street Outreach",
+            "duty":"Help us meet people where they are with hope and practical help.",
+            "details":""
+        },
+        {
+            "icon":"",
+            "opportunity":"Supply Preparation",
+            "duty":"Sort, pack, and organize supplies for outreach events.",
+            "details":""
+        },
+        {
+            "icon":"",
+            "opportunity":"Women's Outreach",
+            "duty":"Support our outreach to women experiencing homelessness",
+            "details":""
+        },
+        {
+            "icon":"",
+            "opportunity":"Event Support",
+            "duty":"Assist at community events, drives, and special outreach efforts.",
+            "details":""
+        },
+        {
+            "icon":"",
+            "opportunity":"Administrative Help",
+            "duty":"Use your skills to support our mission behind the scene.",
+            "details":""
+        }
+    ]
+}

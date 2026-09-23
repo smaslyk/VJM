@@ -1,0 +1,27 @@
+---
+import Opportunity_data from "../data/volunteer_opportunities.json";
+import Accordion from "./Accordion.astro";
+---
+
+<div class=" w-1/2 h-screen">
+    <div class="text-4xl">Volunteer opportunities</div>
+    <div class="text-sm">
+        Explore ways you can serve. Click on the category to learn more.
+    </div>
+    <div>
+        {
+            Opportunity_data.opportunities.map(
+                (opp: {
+                    icon: string;
+                    opportunity: string;
+                    duty: string;
+                    details: string;
+                }) => (
+                    <Accordion title={opp.opportunity}>
+                        <p>{opp.details}</p>
+                    </Accordion>
+                ),
+            )
+        }
+    </div>
+</div>

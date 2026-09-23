@@ -1,0 +1,75 @@
+---
+
+---
+
+<div>
+    <form id="contact-form" method="POST">
+        <input name="name" type="text" placeholder="Name" required />
+        <input name="email" type="email" placeholder="Email" required />
+        <textarea name="message" placeholder="Message"></textarea>
+        <button type="submit"> Send </button>
+    </form>
+</div>
+
+ <script>
+  import { actions } from 'astro:actions';
+  const form = document.getElementById('contact-form');
+  export const handleSubmit = async (event: Event) => {
+    event.preventDefault();
+    const form = event.target as HTMLFormElement;
+    const sendFormData = new FormData(form);
+    const result = await actions.sendMail(sendFormData);
+    if (result.data?.success) {
+      form.reset();
+    }
+  };
+  if (form) {
+    form.addEventListener('submit', handleSubmit);
+  }
+ </script>
+
+
+<style>
+  body {
+    font-family: system-ui, sans-serif;
+  }
+  form {
+   margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 500px;
+    margin-top: 20px;
+
+    input {
+      padding: 10px;
+      font-size: 16px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    textarea {
+      font-family: inherit;
+      padding: 10px;
+      font-size: 16px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      min-height: 100px;
+    }
+
+    button {
+      padding: 10px;
+      font-size: 16px;
+      background-color: #007bff;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #0056b3;
+    }
+  }
+</style>

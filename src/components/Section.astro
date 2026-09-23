@@ -9,7 +9,7 @@ const { section } = Astro.props;
         <h1 class="text-6xl font-bold mb-4 text-slate-50 max-w-lg font-serif">
             {section.title}
         </h1>
-        <div class="mb-4 text-sm text-slate-200 max-w-80">
+        <div class=" m-4 p-4 mb-4 text-sm bg-slate-800 text-slate-200 max-w-80 rounded-lg">
             {section.body}
         </div>
         <div class="flex gap-4">
@@ -17,7 +17,7 @@ const { section } = Astro.props;
                 section.buttons.map(
                     (button: { text: string; link: string; image: string }) => (
                         <a
-                            class="inline-block rounded bg-blue-600 px-6 py-2.5 text-sm font-medium text-white shadow transition duration-200 ease-in-out hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
+                            class="inline-block rounded bg-slate-300 px-6 py-2.5 text-sm font-medium text-blue-950 shadow transition duration-200 ease-in-out hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
                             href={button.link}
                         >
                             <img
@@ -47,10 +47,10 @@ const { section } = Astro.props;
                         icon?: string;
                     }[];
                 }) => (
-                    <div class="rounded overflow-hidden shadow-lg text-blue-950 p-6 mt-8 bg-slate-50 font-serif">
-                        <h2 class="font-bold text-2xl mb-2">{block.title}</h2>
-                        <p class="text-gray-700 text-sm">{block.subtitle}</p>
-                        <div class="flex gap-0 mt-4">
+                    <div class="rounded overflow-hidden shadow-lg p-6 mt-8 bg-slate-50 font-serif">
+                        <h2 class="font-bold text-4xl mb-2">{block.title}</h2>
+                        <p class="text-md">{block.subtitle}</p>
+                        <div class="flex gap-2 mt-4">
                             {block.deck.map(
                                 (card: {
                                     title: string;
@@ -58,21 +58,22 @@ const { section } = Astro.props;
                                     body: string;
                                     image: string;
                                     icon?: string;
+                                    post_html?: string;
                                 }) => (
-                                    <div class="inline-block max-w-sm mx-0 my-0 overflow-hidden shadow-lg rounded-lg bg-white items-center py-0 px-0 border-2 border-black">
+                                    <div class="inline-block max-w-sm mx-0 my-0 overflow-hidden shadow-lg rounded-lg bg-white items-center py-0 px-0">
                                         {card.image && (
                                             <div>
                                                 <img
                                                     src={card.image}
                                                     alt={card.title}
-                                                    class="mb-4 object-fill w-fit border-2 border-black zoom"
+                                                    class="mb-4 object-fill w-full h-full object-center"
                                                 />
                                             </div>
                                         )}
                                         {(card.title || card.subtitle || card.icon) && (
-                                        <div class="px-2 py-0 flex gap-2 items-center border-2 border-black">
+                                        <div class="px-2 py-0 flex gap-2 items-center">
                                             {card.icon && (
-                                            <div class="flex-shrink-0 border-2 border-red-900">
+                                            <div class="flex-shrink-0">
                                                     <img
                                                         src={card.icon}
                                                         alt={card.title}
@@ -81,13 +82,18 @@ const { section } = Astro.props;
                                             </div>
                                             )}
                                             {(card.title || card.subtitle) && (
-                                            <div class="flex-grow border-2 border-red-900">
+                                            <div class="flex-grow">
                                                 <h3 class="font-bold text-xl mb-2">
                                                     {card.title}
                                                 </h3>
-                                                <p class="text-gray-700 text-xs">
+                                                <p class="text-gray-700 text-xs preserve-breaks">
                                                     {card.subtitle}
                                                 </p>
+                                        {card.post_html && (
+                                            <p class="px-2 py-0">
+                                                <p  set:html={card.post_html } />
+                                            </p>
+                                        )}
                                             </div>
                                             )}
                                         </div>
@@ -102,3 +108,8 @@ const { section } = Astro.props;
         }
     </div>
 </div>
+<style>
+  .preserve-breaks {
+    white-space: pre-line;
+  }
+</style>

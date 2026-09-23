@@ -1,26 +1,149 @@
 {
-    "title":"About Veteran John Outreach",
-    "body":"People. Purpose. A brighter tomorrow. Learn who we are, what we believe, and why we serve our veteran community.",
-    "image":"abcd",
-    "buttons":[],
-    "blocks":[
-        {"title":"Leave No One Behind","subtitle":"\"Every person matters. Every story has value. Every tomorrow can be brighter\"","body":"","image":"","icon":"",
-            "deck":[
-                {"title":"Our Mission","subtitle":"To serve, encourage, and walk alongside veterans and their families through practical support, meaningful relationships, and the hope of a brighter tomorrow.","body":"","image":"","icon":"/icons/mountain.svg"},
-                {"title":"Our Vision","subtitle":"Stronger veterans. Stronger  families. Stronger communities. We envision a future where no veteran is forgotten and every individual has the opportunity to thrive with purpose, support, and hope.","body":"","image":"","icon":"/icons/binoculars.svg"}]} ,
-        {"title":"Our Core Values","subtitle":"These values guide our work, our relationships, and our commitment to the veteran community.","body":"","image":"","icon":"",
-            "deck":[
-                {"title":"Human Dignity","subtitle":"Every person has inherent value and purpose.","body":"","image":"","icon":"/icons/people.svg"},
-                {"title":"Compassion","subtitle":"We meet people where they are with kindness and understanding.","body":"","image":"","icon":"/icons/heart.svg"},
-                {"title":"Relationship","subtitle":"Real change happens through genuine connection.","body":"","image":"","icon":"/icons/handshake.svg"},
-                {"title":"Restoration","subtitle":"We believe in second chances and new beginnings.","body":"","image":"","icon":"/icons/restoration.svg"},
-                {"title":"Integrity","subtitle":"We do what's right and keep our commitments.","body":"","image":"","icon":"/icons/shield.svg"},
-                {"title":"Hope","subtitle":"We pursue a brighter tomorrow for every individual.","body":"","image":"","icon":"/icons/sun.svg"},
-                {"title":"Faith","subtitle":"Our work is rooted in faith and a belief in God's purpose for every life.","body":"","image":"","icon":"/icons/cross.svg"}
+    "title": "About Veteran John Outreach",
+    "body": "People. Purpose. A brighter tomorrow. Learn who we are, what we believe, and why we serve our veteran community.",
+    "image": "abcd",
+    "buttons": [],
+    "blocks": [
+        {
+            "title": "Leave No One Behind",
+            "subtitle": "\"Every person matters. Every story has value. Every tomorrow can be brighter\"",
+            "body": "",
+            "image": "",
+            "icon": "",
+            "deck": [
+                {
+                    "title": "Our Mission",
+                    "subtitle": "To serve, encourage, and walk alongside veterans and their families through practical support, meaningful relationships, and the hope of a brighter tomorrow.",
+                    "body": "",
+                    "image": "",
+                    "icon": "/icons/mountain.svg",
+                    "post_html": ""
+                },
+                {
+                    "title": "Our Vision",
+                    "subtitle": "Stronger veterans. Stronger  families. Stronger communities. We envision a future where no veteran is forgotten and every individual has the opportunity to thrive with purpose, support, and hope.",
+                    "body": "",
+                    "image": "",
+                    "icon": "/icons/binoculars.svg",
+                    "post_html": ""
+                }
             ]
         },
-        {"title":"A Faith-Rooted Outreach, Not a Church","subtitle":"","body":"Veteran John Outreach (VJO) is a faith-rooted community outreach, not a church. We serve people from all backgrounds and welcome evryone -- regardless of faith, denomination, or belief -- with respect, kindness, and support.","image":"","icon":"",
-            "deck":[]   },
-        {"title":"Our Story","subtitle":"","body":"A calling to serve. A community to lift up. A brighter tomorrow.","image":"","icon":"",
-            "deck":[]}   
-]}
+        {
+            "title": "Our Core Values",
+            "subtitle": "These values guide our work, our relationships, and our commitment to the veteran community.",
+            "body": "",
+            "image": "",
+            "icon": "",
+            "deck": [
+                {
+                    "title": "Human Dignity",
+                    "subtitle": "Every person has inherent value and purpose.",
+                    "body": "",
+                    "image": "",
+                    "icon": "/icons/people.svg",
+                    "post_html": ""
+                },
+                {
+                    "title": "Compassion",
+                    "subtitle": "We meet people where they are with kindness and understanding.",
+                    "body": "",
+                    "image": "",
+                    "icon": "/icons/heart.svg",
+                    "post_html": ""
+                },
+                {
+                    "title": "Relationship",
+                    "subtitle": "Real change happens through genuine connection.",
+                    "body": "",
+                    "image": "",
+                    "icon": "/icons/handshake.svg",
+                    "post_html": ""
+                },
+                {
+                    "title": "Restoration",
+                    "subtitle": "We believe in second chances and new beginnings.",
+                    "body": "",
+                    "image": "",
+                    "icon": "/icons/restoration.svg",
+                    "post_html": ""
+                },
+                {
+                    "title": "Integrity",
+                    "subtitle": "We do what's right and keep our commitments.",
+                    "body": "",
+                    "image": "",
+                    "icon": "/icons/shield.svg",
+                    "post_html": ""
+                },
+                {
+                    "title": "Hope",
+                    "subtitle": "We pursue a brighter tomorrow for every individual.",
+                    "body": "",
+                    "image": "",
+                    "icon": "/icons/sun.svg",
+                    "post_html": ""
+                },
+                {
+                    "title": "Faith",
+                    "subtitle": "Our work is rooted in faith and a belief in God's purpose for every life.",
+                    "body": "",
+                    "image": "",
+                    "icon": "/icons/cross.svg",
+                    "post_html": ""
+                }
+            ]
+        },
+        {
+            "title": "",
+            "subtitle": "",
+            "body": "",
+            "image": "",
+            "icon": "",
+            "deck": [
+                {
+                    "title": "",
+                    "subtitle": "",
+                    "body": "",
+                    "image": "/img/faithrooted.jpg",
+                    "icon": "",
+                    "post_html": ""
+                },
+                {
+                    "title": "A Faith-Rooted Outreach, Not a Church",
+                    "subtitle": "Veteran John Outreach (VJO) is a faith-rooted community outreach, not a church. We serve people from all backgrounds and welcome evryone -- regardless of faith, denomination, or belief -- with respect, kindness, and support.\r\n\r\nWe believe in the power of partnership. We welcome collaboration from individuals, ministries, congregations, businesses, professionsal, and organizations who share our heart for serving veterans and strengthening communities.",
+                    "body": "",
+                    "image": "",
+                    "icon": "",
+                    "post_html": "<p class=\"mt-4\"><a href=\"#\" class=\"inline-block rounded bg-blue-950 px-6 py-2.5 text-sm font-medium text-white shadow transition duration-200 ease-in-out hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2\">Work Together →</a></p>"
+                }
+            ]
+        },
+        {
+            "title": "",
+            "subtitle": "",
+            "body": "",
+            "image": "",
+            "icon": "",
+            "deck": [
+                {
+                    "title": "Our Story",
+                    "subtitle": "A calling to serve. A community to lift up. A brighter tomorrow.\r\n\r\nVeteran John Outreach began with a single idea:  show up, meet real needs, and remind veterans they are not alone.\r\n\r\nWhat started as one person's heart to serve has grown into a community outreach that brings together volunteers, partners, and supporters to make a lasting difference in the lives of veterans and their families. Through practical help, encouraging realtionships, and a commitment to hope, VJO continues to serve across our community every day.\r\n\r\nFounded by Veteran John, a U.S. military veteran, VJO carries his personal commitment to never forget his fellow veterans and to always leave no one behind.",
+                    "body": "",
+                    "image": "",
+                    "icon": "",
+                    "post_html": ""
+                },
+                {
+                    "title": "",
+                    "subtitle": "",
+                    "body": "",
+                    "image": "/img/our_story.jpg",
+                    "icon": "",
+                    "post_html": ""
+                }
+
+            ]
+        }
+    ]
+}
