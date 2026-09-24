@@ -52,7 +52,7 @@ export const server = {
             } catch (error) {
                 return {
                     success: false,
-                    message: "There was an error sending the e-mail ❌",
+                    message: error instanceof Error ? error.message : String(error),
                 };
             }
         },
