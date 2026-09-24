@@ -21,8 +21,14 @@ export const server = {
             email: z.email("Invalid email"),
             message: z.string().optional(),
         }),
-        handler: async (input) => {
+        handler: async (input, context) => {
             try {
+                console.log({
+                    host: context.request.headers.get("host"),
+                    forwardedHost: context.request.headers.get("x-forwarded-host"),
+                    origin: context.request.headers.get("origin"),
+                    referer: context.request.headers.get("referer"),
+                });
                 const { name, email, message = "" } = input;
 
                 const request = {} as V1SendRequest;
