@@ -52,7 +52,7 @@ export const server = {
             } catch (error) {
                 return {
                     success: false,
-                    message: error instanceof Error ? error.message : String(error),
+                    message: error instanceof Error ? error.stack : String(error),
                 };
             }
         },
