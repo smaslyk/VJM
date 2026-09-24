@@ -50,6 +50,7 @@ export const server = {
                  */
                 return { success: true, message: "E-mail sent successfully ✅" };
             } catch (error) {
+                console.log(error);
                 return {
                     success: false,
                     message: "There was an error sending the e-mail ❌",

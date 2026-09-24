@@ -3,38 +3,40 @@
 ---
 
 <div>
-    <form id="contact-form" method="POST">
-        <input name="name" type="text" placeholder="Name" required />
-        <input name="email" type="email" placeholder="Email" required />
-        <textarea name="message" placeholder="Message"></textarea>
-        <button type="submit"> Send </button>
-    </form>
+  <form id="contact-form" method="POST">
+    <input name="name" type="text" placeholder="Name" required />
+    <input name="email" type="email" placeholder="Email" required />
+    <textarea name="message" placeholder="Message"></textarea>
+    <button type="submit"> Send </button>
+  </form>
 </div>
 
- <script>
-  import { actions } from 'astro:actions';
-  const form = document.getElementById('contact-form');
+<script>
+  import { actions } from "astro:actions";
+  import { debug } from "node:console";
+  const form = document.getElementById("contact-form");
   export const handleSubmit = async (event: Event) => {
     event.preventDefault();
     const form = event.target as HTMLFormElement;
     const sendFormData = new FormData(form);
+    console.log("hello");
     const result = await actions.sendMail(sendFormData);
     if (result.data?.success) {
+      console.log(result.data.message);
       form.reset();
     }
   };
   if (form) {
-    form.addEventListener('submit', handleSubmit);
+    form.addEventListener("submit", handleSubmit);
   }
- </script>
-
+</script>
 
 <style>
   body {
     font-family: system-ui, sans-serif;
   }
   form {
-   margin-left: auto;
+    margin-left: auto;
     margin-right: auto;
     display: flex;
     flex-direction: column;
