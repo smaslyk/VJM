@@ -1,0 +1,49 @@
+{
+    "title": "Contact Veteran John Outreach",
+    "body": "We're here to listen, help, and connect. Whether you have a question, want to get involved, or need support, we'd love to hear from you.",
+    "image": "",
+    "buttons": [],
+    "blocks": [
+        {
+            "title": "How Can We Help",
+            "subtitle": "Choose the option that best describes why you're reaching out.",
+            "body": "",
+            "image": "",
+            "icon": "",
+            "deck": [
+                {
+                    "title": "I need information",
+                    "subtitle": "Learn more about our programs, events, and how we help veterans.",
+                    "body": "",
+                    "image": "",
+                    "icon": "/icons/info.svg",
+                    "post_html": ""
+                },
+                {
+                    "title": "I Want to Volunteer",
+                    "subtitle": "Find out how you can give your time and make a difference.",
+                    "body": "",
+                    "image": "",
+                    "icon": "/icons/people.svg",
+                    "post_html": ""
+                },
+                {
+                    "title": "I Want to Partner",
+                    "subtitle": "Explore partnership opportunities, sponsorships, or community collaborations.",
+                    "body": "",
+                    "image": "",
+                    "icon": "/icons/handshake.svg",
+                    "post_html": ""
+                },
+                {
+                    "title": "General Question",
+                    "subtitle": "Have another question? We're happy to help.",
+                    "body": "",
+                    "image": "",
+                    "icon": "/icons/envelope.svg",
+                    "post_html": ""
+                }
+            ]
+        }
+    ]
+}

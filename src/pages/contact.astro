@@ -1,79 +1,79 @@
 ---
-
+import Layout from "../layouts/Layout.astro";
+import "../styles/global.css";
+import ContactForm from "../components/ContactForm.astro";
+import Section from "../components/Section.astro";
+import contact_data from "../data/contact.json";
 ---
-<div>
-  <form id="contact-form" method="POST">
-    <input name="name" type="text" placeholder="Name" required />
-    <input name="email" type="email" placeholder="Email" required />
-    <textarea name="message" placeholder="Message"></textarea>
-    <button type="submit"> Send </button>
-  </form>
-</div>
 
-<script>
-  import { actions } from "astro:actions";
-  import { debug } from "node:console";
-  const form = document.getElementById("contact-form");
-  export const handleSubmit = async (event: Event) => {
-    event.preventDefault();
-    const form = event.target as HTMLFormElement;
-    const sendFormData = new FormData(form);
-    console.log("hello");
-    const result = await actions.sendMail(sendFormData);
-    if (result.data?.success) {
-      console.log(result.data.message);
-      form.reset();
-    }
-    else{
-       console.error("sendMail failed:", result.data?.message);
-    }
-  };
-  if (form) {
-    form.addEventListener("submit", handleSubmit);
-  }
-</script>
+<Layout>
+	<Section section={contact_data} />
+	<div class="flex gap-6">
+		<div class="p-4">
+			<p class="text-2xl font-bold font-serif">Send Us a Message</p>
+			<p>
+				Fill in the form, and we'll get back with you as soon as
+				possible.
+			</p>
+			<div>
+				<ContactForm
+					subject="Contact Request from Veteran John website"
+				/>
+				<p class="text-xs">We respect your privacy. No spam ever.</p>
+			</div>
+		</div>
+		<div class="flex gap-4">
+			<div class="p-4">
+				<p class="text-2xl font-serif font-bold">Other Ways to Reach Us</p>
 
-<style>
-  body {
-    font-family: system-ui, sans-serif;
-  }
-  form {
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    max-width: 500px;
-    margin-top: 20px;
-
-    input {
-      padding: 10px;
-      font-size: 16px;
-      border: 1px solid #ccc;
-      border-radius: 4px;
-    }
-
-    textarea {
-      font-family: inherit;
-      padding: 10px;
-      font-size: 16px;
-      border: 1px solid #ccc;
-      border-radius: 4px;
-      min-height: 100px;
-    }
-
-    button {
-      padding: 10px;
-      font-size: 16px;
-      background-color: #007bff;
-      color: white;
-      border: none;
-      border-radius: 4px;
-      cursor: pointer;
-    }
-
-    button:hover {
-      background-color: #0056b3;
-    }
-  }
-</style>
+				<div class="flex gap-4 py-4">
+					<div>
+						<img class="w-8 h-8 mb-4" src="/icons/phone.svg" />
+					</div>
+					<div>
+						<p class="font-bold">Phone</p>
+						<p></p>
+						<p>We're happy to talk and answer your questions.</p>
+					</div>
+				</div>
+				<div class="flex gap-4 py-4">
+					<div>
+						<img class="w-8 h-8 mb-4" src="/icons/envelope.svg" />
+					</div>
+					<div>
+						<p class="font-bold">Email</p>
+						<p><a class="underline" href="mailto:Outreach@VeteranJohn.org">Outreach@VeteranJohn.org</a></p>
+						<p>We typically respond in 1-2 business days.</p>
+					</div>
+				</div>
+				<div class="flex gap-4 py-4">
+					<div>
+						<img class="w-8 h-8 mb-4" src="/icons/location.svg" />
+					</div>
+					<div>
+						<p class="font-bold">Our Location</p>
+						<p>Fort Worth, Texas</p>
+						<p>
+							We serve veterans and communities throughout the
+							region.
+						</p>
+					</div>
+				</div>
+				<div class="flex gap-4 py-4">
+					<div>
+						<img class="w-8 h-8 mb-4" src="/icons/clock.svg" />
+					</div>
+					<div>
+						<p class="font-bold">Office Hours</p>
+						<p>Monday - Friday</p>
+						<p>9:00 AM - 5:00 PM (CST)</p>
+						<p>
+							We're here during regular business hours, but you
+							can always send us a message anytime.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</Layout>

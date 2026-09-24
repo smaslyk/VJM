@@ -9,30 +9,24 @@ const configuration = new Configuration({
 
 const sender = new SendApi(configuration);
 
-
-
 export const server = {
     sendMail: defineAction({
         accept: "form",
         input: z.object({
             name: z.string().min(1, "Name is required"),
             email: z.email("Invalid email"),
+            subject: z.string().optional(),
             message: z.string().optional(),
         }),
         handler: async (input, context) => {
             try {
-                console.log({
-                    host: context.request.headers.get("host"),
-                    forwardedHost: context.request.headers.get("x-forwarded-host"),
-                    origin: context.request.headers.get("origin"),
-                    referer: context.request.headers.get("referer"),
-                });
-                const { name, email, message = "" } = input;
+                const { name, email, subject = "", message = "" } = input;
 
                 const request = {} as V1SendRequest;
-                request.to = ["steven.maslyk@gmail.com"];
-                request.subject = "test subject";
+                request.to = [HOSTINGER_FROM_EMAIL];
+                request.subject = subject;
                 request.text = message;
+                request.cc = [email];
                 request.displayName = HOSTINGER_DISPLAY_NAME;
 
                 await sender.sendEmail(HOSTINGER_RESOURCE_ID, request);
