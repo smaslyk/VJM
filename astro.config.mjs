@@ -10,6 +10,15 @@ export default defineConfig({
   adapter: node({
     mode: 'standalone',
   }),
+  security: {
+    checkOrigin: true,
+    allowedDomains: [
+      {
+        protocol: "https",
+        hostname: "veteranjohn.com",
+      },
+    ],
+  },
   vite: {
     plugins: [tailwindcss()]
   },
