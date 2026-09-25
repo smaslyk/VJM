@@ -4,9 +4,11 @@ import '../styles/global.css';
 import section_data from '../data/bios.json';
 import Section from '../components/Section.astro';
 import Newsletter from '../components/Newsletter.astro';
+import Prefooter from '../components/Prefooter.astro';
 ---
 
 <Layout>
 	<Section section={section_data} />
 	<Newsletter />
+	<Prefooter prefooter_data={section_data.prefooter} />
 </Layout>

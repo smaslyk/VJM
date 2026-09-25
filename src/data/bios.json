@@ -65,5 +65,11 @@
                 }
             ]
         }
-    ]
+    ],
+    "prefooter": {
+        "icon": "/icons/video.svg",
+        "title": "Coming soon",
+        "body": "<p class=\"text-sm\">More stories, testimonials, and videos are coming soon.</p><p class=\"text-xs\">We look forward to sharing more stories, testimonials, and video updates that highlight the people and impact of our outreach.</p>",
+        "html": "<p class=\"font-['Brush_Script_MT',cursive] text-2xl text-center\">More stories. Brighter tomorrows.</p>"
+    }
 }

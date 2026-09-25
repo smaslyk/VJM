@@ -10,13 +10,13 @@ const navItems = [
   { name: "Contact", href: "/contact" },
 ];
 ---
-<nav class="bg-slate-950 text-white border-b border-slate-800 sticky top-0 z-50">
+<nav class="text-blue-950 bg-white sticky top-0 z-50">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="flex items-center justify-between h-16">
       
       <!-- Logo -->
       <div class="shrink-0">
-        <a href="/" class="text-xl font-bold tracking-wider text-indigo-400">BRAND</a>
+        <a href="/" class="text-xl font-bold tracking-wider text-blue-950">VJO logo</a>
       </div>
 
       <!-- Desktop Menu -->
@@ -24,7 +24,7 @@ const navItems = [
         {navItems.map((item) => (
           <a 
             href={item.href} 
-            class="text-sm font-medium text-slate-300 hover:text-white transition-colors duration-200"
+            class="text-sm font-medium text-blue-950 hover:text-red-700 transition-colors duration-200"
           >
             {item.name}
           </a>
