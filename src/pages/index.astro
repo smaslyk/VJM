@@ -3,8 +3,10 @@ import Layout from '../layouts/Layout.astro';
 import '../styles/global.css';
 import section_data from '../data/home.json';
 import Section from '../components/Section.astro';
+import Prefooter from '../components/Prefooter.astro';
 ---
 
 <Layout>
 	<Section section={section_data} />
+	<Prefooter prefooter_data={section_data.prefooter} />
 </Layout>

@@ -50,7 +50,7 @@ const { section } = Astro.props;
                     <div class="rounded overflow-hidden shadow-lg p-6 mt-8 bg-slate-50 font-serif">
                         <h2 class="font-bold text-4xl mb-2">{block.title}</h2>
                         <p class="text-md">{block.subtitle}</p>
-                        <div class="flex gap-2 mt-4">
+                        <div class="flex flex-col md:flex-row gap-2 mt-4">
                             {block.deck.map(
                                 (card: {
                                     title: string;

@@ -139,11 +139,17 @@
                 {
                     "title": "Seasonal Relief",
                     "subtitle": "Warm clothing, meals, and essential supplies when people need it most.",
-                    "image":"/img/meal_pkg.jpg",
+                    "image": "/img/meal_pkg.jpg",
                     "icon": "",
                     "post_html": ""
                 }
             ]
         }
-    ]
+    ],
+    "prefooter": {
+        "icon": "/icons/handshake.svg",
+        "title": "Partnership in Action",
+        "body": "Our work is stronger togeter. We partner with churches, businesses, community organizations, and individual supporters to extend our reach and increase our impact across Fort Worth and beyond.",
+        "html": "<p class=\"mt-4\"><a href=\"#\" class=\"inline-block rounded bg-blue-950 px-18 py-2.5 text-sm font-medium text-white shadow transition duration-200 ease-in-out hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2\">Become a partner →</a></p><p class=\"font-['Brush_Script_MT',cursive] text-lg text-center\">People. Purpose. A brighter tomorrow.</p>"
+    }
 }

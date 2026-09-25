@@ -118,39 +118,13 @@
                     "post_html": "<p class=\"mt-4\"><a href=\"#\" class=\"text-blue-950 text-sm text-bold hover:underline\">Learn more →</a></p>"
                 }
             ]
-        },
-        {
-            "title": "Bios & Updates",
-            "subtitle": "Real people. Real stories. A brighter tomorrow.",
-            "body": "",
-            "image": "",
-            "icon": "",
-            "deck": [
-                {
-                    "title": "John Doe",
-                    "subtitle": "Founder & Director",
-                    "body": "",
-                    "image": "",
-                    "icon": "",
-                    "post_html": ""
-                },
-                {
-                    "title": "Jane Smith",
-                    "subtitle": "Community Outreach Coordinator",
-                    "body": "",
-                    "image": "",
-                    "icon": "",
-                    "post_html": ""
-                },
-                {
-                    "title": "Mike Johnson",
-                    "subtitle": "Veteran Support Specialist",
-                    "body": "",
-                    "image": "",
-                    "icon": "",
-                    "post_html": ""
-                }
-            ]
         }
     ]
+,
+    "prefooter": {
+        "icon": "/icons/cross.svg",
+        "title": "An Open Hand. An Open Heart.",
+        "body":"<p>\"You shall open your hand wide to your brother, to the needy and to the poor in your land.\"</p><p class=\"italic\">Deuteronomy 15:11 (ESV)</p>",
+        "html": "<p>Our faith calls us to see people, love people, and help meet their needs with our hands and our hearts."
+    }
 }
