@@ -10,8 +10,8 @@
         },
         {
             "text": "Latest Newsletter",
-            "image": "",
-            "link": ""
+            "image": "/icons/page.svg",
+            "link": "/newsletter_issue?issue=2025_11_Newsletter.pdf"
         }
     ],
     "blocks": [
@@ -64,14 +64,6 @@
                     "post_html": "<p class=\"mt-4\"><a href=\"#\" class=\"inline-block rounded bg-blue-950 px-6 py-2.5 text-sm font-medium text-white shadow transition duration-200 ease-in-out hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2\">Read More →</a></p>"
                 }
             ]
-        },
-        {
-            "title": "Newletter Archive",
-            "subtitle": "Stay informed with the latest news, updates, and stories from Veteran John Outreach.",
-            "body": "",
-            "image": "",
-            "icon": "",
-            "deck": []
         }
     ]
 }

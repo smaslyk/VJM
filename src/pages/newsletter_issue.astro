@@ -1,44 +1,44 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Veteran John Newsletter</title>
-    <style>
-        /* Eliminate default browser margins and scrollbars */
-        html, body {
-            margin: 0;
-            padding: 0;
-            width: 100%;
-            height: 100%;
-            overflow: hidden; /* Prevents double scrollbars */
-        }
+---
 
-        /* Container designed to take up exactly the full viewport */
-        .pdf-container {
-            width: 100%;
-            height: 100vh; /* 100% of the viewport height */
-        }
+const issue = Astro.url.searchParams.get('issue');
+---
+<div class="pdf-container">
+    <!-- The object tag loads the PDF and offers fallback text if unsupported -->
+    <object
+        data={"/newsletters/" + issue}
+        type="application/pdf"
+        class="pdf-object"
+    >
+        <p>
+            Your browser does not support inline PDFs.
+            <a href={issue}
+                >Click here to download the PDF instead.</a
+            >
+        </p>
+    </object>
+</div>
 
-        /* Make the object fill its container completely */
-        .pdf-object {
-            width: 100%;
-            height: 100%;
-            border: none;
-        }
-    </style>
-</head>
-<body>
+<style>
+    /* Eliminate default browser margins and scrollbars */
+    html,
+    body {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+        overflow: hidden; /* Prevents double scrollbars */
+    }
 
-    <div class="pdf-container">
-        <!-- The object tag loads the PDF and offers fallback text if unsupported -->
-        <object data="/newsletters/2025_11_Newsletter.pdf" type="application/pdf" class="pdf-object">
-            <p>Your browser does not support inline PDFs. 
-               <a href="/newsletters/2025_11_Newsletter.pdf">Click here to download the PDF instead.</a>
-            </p>
-        </object>
-    </div>
+    /* Container designed to take up exactly the full viewport */
+    .pdf-container {
+        width: 100%;
+        height: 100vh; /* 100% of the viewport height */
+    }
 
-</body>
-</html>
-
+    /* Make the object fill its container completely */
+    .pdf-object {
+        width: 100%;
+        height: 100%;
+        border: none;
+    }
+</style>
