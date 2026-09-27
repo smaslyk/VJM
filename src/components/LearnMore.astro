@@ -1,0 +1,31 @@
+---
+const { content } = Astro.props;
+---
+<div class="my-4 py-4 popup-wrapper">
+<a 
+  class="text-blue-950 hover:bg-blue-700 transition text-sm hover:cursor-pointer open-btn"
+>
+  Learn more →
+</a>
+<!-- Modal Overlay Background (Hidden by default) -->
+<div 
+  class="fixed inset-0 bg-black/50 flex items-center justify-center p-4 z-50 hidden popup-modal"
+>
+  <!-- Modal Content Box -->  <div class="bg-white rounded-xl max-w-md w-full p-6 shadow-xl relative preserve-breaks">
+    <p class="text-gray-600 mb-6 preserve-breaks" set:html={content}>
+</p>
+    
+    <!-- Close Button -->
+    <button 
+      class="px-4 py-2 bg-gray-200 text-gray-800 rounded-lg hover:bg-gray-300 transition w-full close-btn"
+    >
+      Close
+    </button>
+  </div>
+</div>
+</div>
+<style>
+    .preserve-breaks {
+        white-space: pre-line;
+    }
+</style>

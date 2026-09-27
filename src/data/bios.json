@@ -36,7 +36,7 @@
                     "body": "",
                     "image": "",
                     "icon": "",
-                    "post_html": "<p class=\"mt-4\"><a href=\"#\" class=\"inline-block rounded bg-blue-950 px-6 py-2.5 text-sm font-medium text-white shadow transition duration-200 ease-in-out hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2\">Read Story →</a></p>"
+                    "post_html": "<p class=\"my-4\"><a href=\"#\" class=\"inline-block rounded bg-blue-950 px-6 py-2.5 text-sm font-medium text-white shadow transition duration-200 ease-in-out hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2\">Read Story →</a></p>"
                 }
             ]
         },
@@ -61,7 +61,7 @@
                     "body": "",
                     "image": "",
                     "icon": "",
-                    "post_html": "<p class=\"mt-4\"><a href=\"#\" class=\"inline-block rounded bg-blue-950 px-6 py-2.5 text-sm font-medium text-white shadow transition duration-200 ease-in-out hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2\">Read More →</a></p>"
+                    "post_html": "<p class=\"my-4\"><a href=\"#\" class=\"inline-block rounded bg-blue-950 px-6 py-2.5 text-sm font-medium text-white shadow transition duration-200 ease-in-out hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2\">Read More →</a></p>"
                 }
             ]
         }

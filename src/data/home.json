@@ -5,17 +5,17 @@
     "buttons": [
         {
             "text": "Donate",
-            "image": "/icons/heart.svg",
+            "image": "/icons/heart_wt.svg",
             "link": "/give"
         },
         {
             "text": "Get Involved",
-            "image": "/icons/people.svg",
+            "image": "/icons/people_wt.svg",
             "link": ""
         },
         {
             "text": "Learn How We Serve",
-            "image": "/icons/book.svg",
+            "image": "/icons/book_wt.svg",
             "link": ""
         }
     ],
@@ -33,15 +33,17 @@
                     "body": "",
                     "image": "/img/medicalaid.jpg",
                     "icon": "/icons/drop.svg",
-                    "post_html": "<p class=\"mt-4\"><a href=\"#\" class=\"text-blue-950 text-sm text-bold hover:underline\">Learn more →</a></p>"
+                    "learn_more" : "Meeting immediate needs with practical care and compassion.\r\n\r\nThis initial step focuses on addressing the most pressing physical and emotional requirements of individuals facing hardship or crisis. Whether providing nutritious food, safe shelter, essential supplies, or crisis counseling, relief acts as a vital safety net that stabilizes individuals during turbulent times. By offering swift, tangible assistance without judgment, service providers deliver a sense of comfort and security, easing immediate burdens so that individuals can regain their footing and feel truly supported in their moment of greatest need.",
+                    "post_html": ""
                 },
                 {
                     "title": "Relationship",
                     "subtitle": "Building genuine connections and walking alongside people.",
                     "body": "",
-                    "image": "/img/group.jpg",
+                    "image": "/img/Group.jpg",
                     "icon": "/icons/people.svg",
-                    "post_html": "<p class=\"mt-4\"><a href=\"#\" class=\"text-blue-950 text-sm text-bold hover:underline\">Learn more →</a></p>"
+                    "learn_more" : "Building genuine connections and walking alongside people.\r\n\r\nBeyond short-term assistance, lasting progress depends on establishing mutual trust and authentic community support. This stage prioritizes active listening, empathy, and consistent engagement, recognizing that every individual possesses inherent dignity and a unique story. By cultivating meaningful relationships, mentors and support networks help people feel seen, valued, and empowered rather than defined by their circumstances. Walking side by side through ongoing challenges creates a safe environment where confidence can grow, resilience is nurtured, and personal potential begins to flourish.",
+                    "post_html": ""
                 },
                 {
                     "title": "Restoration",
@@ -49,7 +51,8 @@
                     "body": "",
                     "image": "/img/restoration.jpg",
                     "icon": "/icons/restoration.svg",
-                    "post_html": "<p class=\"mt-4\"><a href=\"#\" class=\"text-blue-950 text-sm text-bold hover:underline\">Learn more →</a></p>"
+                    "learn_more":"Encouraging hope, opportunity, and a brighter tomorrow.\r\n\r\nThe ultimate goal of holistic support is to facilitate long-term transformation and self-sufficiency. Restoration involves equipping individuals with the tools, skills, and resources necessary to rebuild their lives and pursue personal aspirations. Through education, vocational training, financial literacy, and sustained community integration, people are empowered to move beyond survival mode into sustainable independence. By restoring dignity, independence, and purpose, this final phase helps create lasting positive change that carries forward into future generations.",
+                    "post_html": ""
                 }
             ]
         },
@@ -74,7 +77,7 @@
                     "body": "",
                     "image": "",
                     "icon": "",
-                    "post_html": "<p class=\"mt-4\"><a href=\"#\" class=\"inline-block rounded bg-blue-950 px-6 py-2.5 text-sm font-medium text-white shadow transition duration-200 ease-in-out hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2\">Learn more →</a></p>"
+                    "post_html": "<p class=\"my-4\"><a href=\"#\" class=\"inline-block rounded bg-blue-950 px-6 py-2.5 text-sm font-medium text-white shadow transition duration-200 ease-in-out hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2\">Learn more →</a></p>"
                 }
             ]
         },
@@ -91,7 +94,8 @@
                     "body": "",
                     "image": "",
                     "icon": "/icons/gift.svg",
-                    "post_html": "<p class=\"mt-4\"><a href=\"#\" class=\"text-blue-950 text-sm text-bold hover:underline\">Learn more →</a></p>"
+                    "learn_more":"Fuel our mission and change lives.\r\n\r\n When you donate to our outreach, your financial support directly provides vital, immediate resources—such as hot meals, warm clothing, emergency shelter, and essential hygiene kits—to individuals experiencing housing instability. Beyond addressing daily survival needs, your contributions empower comprehensive support programs, including mental health counseling, job training, substance use recovery, and long-term housing placement services that help people rebuild their independence. Every dollar acts as a lifeline, restoring dignity and offering a clear path toward stability for vulnerable members of our community.",
+                    "post_html": ""
                 },
                 {
                     "title": "Volunteer",
@@ -99,7 +103,8 @@
                     "body": "",
                     "image": "",
                     "icon": "/icons/people.svg",
-                    "post_html": "<p class=\"mt-4\"><a href=\"#\" class=\"text-blue-950 text-sm text-bold hover:underline\">Learn more →</a></p>"
+                    "learn_more":"Share your time and talents.\r\n\r\nVolunteering with our outreach provides direct, meaningful support to individuals working to rebuild their lives, turning everyday skills into powerful tools for change. Whether you are serving warm meals, organizing essential supply donations, offering career mentoring, or simply sitting down to share a compassionate conversation, your presence helps restore dignity and connection to community members experiencing housing instability. Beyond the immediate impact on those you serve, giving your time fosters personal growth, deepens empathy, and strengthens the broader social safety net by ensuring local programs have the hands-on help needed to thrive.",
+                    "post_html": ""
                 },
                 {
                     "title": "Donate Supplies",
@@ -107,7 +112,8 @@
                     "body": "",
                     "image": "",
                     "icon": "/icons/package.svg",
-                    "post_html": "<p class=\"mt-4\"><a href=\"#\" class=\"text-blue-950 text-sm text-bold hover:underline\">Learn more →</a></p>"
+                    "learn_more":"Provide essential items for those in need.\r\n\r\nDonating physical supplies to our outreach directly equips individuals experiencing homelessness with the daily necessities required for survival, comfort, and safety. Critical items like seasonal clothing, personal hygiene products, non-perishable food, and bedding offer immediate relief to community members facing severe hardship. Beyond fulfilling urgent material needs, these practical donations stretch the organization's resources, allowing funds to be directed toward essential support services such as housing placement, medical care, and job training. By contributing tangible goods, you deliver immediate comfort and remind vulnerable neighbors that their health, well-being, and dignity matter.",
+                    "post_html": ""
                 },
                 {
                     "title": "Partner with VJO",
@@ -115,7 +121,8 @@
                     "body": "",
                     "image": "",
                     "icon": "/icons/handshake.svg",
-                    "post_html": "<p class=\"mt-4\"><a href=\"#\" class=\"text-blue-950 text-sm text-bold hover:underline\">Learn more →</a></p>"
+                    "learn_more":"Join us in creating a stronger community.\r\n\r\nPartnering with Veteran John's Homeless Outreach offers local businesses, civic groups, and community organizations a meaningful way to make a lasting, collective impact. By collaborating on major fundraising events, co-sponsoring outreach initiatives, hosting workplace donation drives, or providing specialized professional services, your organization can directly enhance the scope and reach of our programs. Strategic partnerships help amplify our mission, expand resources for homeless veterans and community members, and demonstrate a clear, shared commitment to restoring dignity, stability, and hope to those who need it most.",
+                    "post_html": ""
                 }
             ]
         }

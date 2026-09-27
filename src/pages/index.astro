@@ -9,4 +9,32 @@ import Prefooter from '../components/Prefooter.astro';
 <Layout>
 	<Section section={section_data} />
 	<Prefooter prefooter_data={section_data.prefooter} />
+	<script>
+  // Find all wrapper elements on the page
+  const wrappers = document.querySelectorAll('.popup-wrapper');
+
+  wrappers.forEach((wrapper) => {
+    // Scope selectors strictly to the current wrapper element
+    const openBtn = wrapper.querySelector('.open-btn');
+    const closeBtn = wrapper.querySelector('.close-btn');
+    const modal = wrapper.querySelector('.popup-modal');
+ 
+    // Toggle logic
+    openBtn?.addEventListener('click', () => {
+      modal?.classList.remove('hidden');
+    });
+
+    closeBtn?.addEventListener('click', () => {
+      modal?.classList.add('hidden');
+    });
+
+    // Optional: Close when clicking the backdrop backdrop
+    modal?.addEventListener('click', (e) => {
+      if (e.target === modal) {
+        modal.classList.add('hidden');
+      }
+    });
+  });
+</script>
 </Layout>
+

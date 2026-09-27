@@ -13,11 +13,11 @@
             "deck": [
                 {
                     "title": "Volunteer",
-                    "subtitle": "Give you time and talents on the front lines or behind the scenes",
+                    "subtitle": "Give your time and talents on the front lines or behind the scenes",
                     "body": "",
                     "image": "",
                     "icon": "/icons/people.svg",
-                    "post_html": "<p class=\"mt-4\"><a href=\"#\" class=\"text-blue-950 text-sm text-bold hover:underline\">Learn more →</a></p>"
+                    "post_html": "<p class=\"my-4\"><a href=\"#\" class=\"text-blue-950 text-sm text-bold hover:underline\">Learn more →</a></p>"
                 },
                 {
                     "title": "Partner with VJO",
@@ -25,7 +25,7 @@
                     "body": "",
                     "image": "",
                     "icon": "/icons/handshake.svg",
-                    "post_html": "<p class=\"mt-4\"><a href=\"#\" class=\"text-blue-950 text-sm text-bold hover:underline\">Learn more →</a></p>"
+                    "post_html": "<p class=\"my-4\"><a href=\"#\" class=\"text-blue-950 text-sm text-bold hover:underline\">Learn more →</a></p>"
                 },
                 {
                     "title": "Donate Supplies",
@@ -33,7 +33,7 @@
                     "body": "",
                     "image": "",
                     "icon": "/icons/package.svg",
-                    "post_html": "<p class=\"mt-4\"><a href=\"#\" class=\"text-blue-950 text-sm text-bold hover:underline\">Learn more →</a></p>"
+                    "post_html": "<p class=\"my-4\"><a href=\"#\" class=\"text-blue-950 text-sm text-bold hover:underline\">Learn more →</a></p>"
                 },
                 {
                     "title": "Pray With Us",
@@ -41,7 +41,7 @@
                     "body": "",
                     "image": "/img/prayer.jpg",
                     "icon": "/icons/praying.svg",
-                    "post_html": "<p class=\"mt-4\"><a href=\"#\" class=\"text-blue-950 text-sm text-bold hover:underline\">Learn more →</a></p>"
+                    "post_html": "<p class=\"my-4\"><a href=\"#\" class=\"text-blue-950 text-sm text-bold hover:underline\">Learn more →</a></p>"
                 }
             ]
         }
