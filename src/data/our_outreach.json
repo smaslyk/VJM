@@ -5,12 +5,12 @@
     "buttons": [
         {
             "text": "Get Involved",
-            "image": "/icons/heart.svg",
+            "image": "/icons/heart_wt.svg",
             "link": "/get_involved"
         },
         {
             "text": "Partner With Us",
-            "image": "/icons/people.svg",
+            "image": "/icons/people_wt.svg",
             "link": ""
         }
     ],
